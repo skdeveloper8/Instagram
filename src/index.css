@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+color: black;
+}
+.sidemain{
+    position: fixed;
+}
+.logo-text{
+    font-family: URW Chancery L, cursive;
+}
+
+
+@media screen and (max-width:1220px) {
+    .logo p{
+        display: none;
+    }
+    .sidemain{
+        width: 90px;
+    }
+    .sidemain-ul p{
+        display: none;
+    }
+    .bodymain{
+        margin: 0 auto;
+    }
+    .suggestmain{
+        display: none;
+    }
+    .suggestmain{
+        display: none;
+    }
+    .loginpage{
+        display: none;
+    }
+    .postdiv{
+        width: 100%;
+    }
+    .storydiv{
+        width: 100%;
+        display: flex;
+        gap: 2;
+    }
+    .userprofile{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width:850px) {
+    .logo p{
+        display: none;
+    }
+    .sidemain{
+        display: none;
+    }
+    .suggestmain{
+        display: none;
+    }
+    .bodymain{
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .loginpage{
+        display: none;
+    }
+    .postdiv{
+        width: 100%;
+    }
+    .userprofile{
+        padding-left: 50px;
+    }
+    .create-post{
+        
+        width: 90vw;
+    }
+    .create-post2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 20rem;
+    }
+    
+}
